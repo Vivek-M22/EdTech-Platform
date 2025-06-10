@@ -37,6 +37,7 @@ export default function Home() {
                 </div>
             </aside>
 
+            {/*  What You’ll Learn , Why Choose Us and  How It Works */}
             <section className="px-60 py-12 bg-white text-black bg-gray-300 border rounded-lg ">
                 <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
 
@@ -105,6 +106,7 @@ export default function Home() {
                 </div>
 
                 <hr className="border-t-2 border-gray-300 my-6" />
+                {/*  How It Works */}
                 <section className="w-full px-10 py-1 bg-gray-300 text-black">
                     <div className="mx-auto w-full">
                         <h2 className="text-3xl font-bold mb-10 text-center">
@@ -153,6 +155,7 @@ export default function Home() {
                 <hr className="border-t-2 border-gray-300 my-6" />
             </section>
 
+            {/* Testimonials, Section Pricing Plans, Section  Call to Action */}
             <section className="w-full px-6 py-6 bg-white text-black">
                 {/* Section Testimonials */}
                 <div className="max-w-5xl mx-auto mb-16">
