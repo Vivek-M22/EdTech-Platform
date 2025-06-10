@@ -43,7 +43,7 @@ export default function Home() {
 
                     {/* Section 1: What You’ll Learn */}
                     <div>
-                    <h2 className="text-3xl font-bold mb-6">What You’ll Learn</h2>
+                    <h2 className="text-3xl font-bold mb-6 p-6 border rounded-lg shadow-md bg-gray-50">What You’ll Learn</h2>
                     <ul className="space-y-4">
                         <li className="flex items-start gap-4">
                         <img src="https://img.icons8.com/ios/50/000000/math.png" className="w-6 h-6" alt="icon" />
@@ -70,7 +70,7 @@ export default function Home() {
 
                     {/* Section 2: Why Choose Us */}
                     <div>
-                    <h2 className="text-3xl font-bold mb-6">Why Choose Us</h2>
+                    <h2 className="text-3xl font-bold mb-6 p-6 border rounded-lg shadow-md bg-gray-50 ">Why Choose Us</h2>
                     <div className="space-y-2">
                         <div className="flex items-start gap-4">
                         <img src="https://img.icons8.com/ios-filled/50/000000/teacher.png" className="w-6 h-6" alt="icon" />
@@ -105,9 +105,9 @@ export default function Home() {
 
                 </div>
 
-                <hr className="border-t-2 border-gray-300 my-6" />
+                <hr className="border-t-2 border-gray-100 my-6  " />
                 {/*  How It Works */}
-                <section className="w-full px-10 py-1 bg-gray-300 text-black">
+                <section className="w-full my-10 px-10 py-10 bg-gray-50 text-black p-6 border rounded-lg shadow-md bg-gray-50">
                     <div className="mx-auto w-full">
                         <h2 className="text-3xl font-bold mb-10 text-center">
                         How It Works
@@ -152,7 +152,8 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-                <hr className="border-t-2 border-gray-300 my-6" />
+
+                {/* <hr className="border-t-2 border-gray-300 my-6" /> */}
             </section>
 
             {/* Testimonials, Section Pricing Plans, Section  Call to Action */}
