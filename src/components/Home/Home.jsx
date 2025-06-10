@@ -3,7 +3,7 @@ import course01 from '../assets/course01.webp'
 
 export default function Home() {
     return (
-        <div className="mx-auto w-full max-w-7xl bg-gray-200">
+        <div className="mx-auto w-full max-w-7xl bg-gray-200 ">
             <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16 ">
                 <div className="relative z-10 max-w-screen-xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8 ">
                     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto ">
@@ -42,8 +42,8 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
 
                     {/* Section 1: What You’ll Learn */}
-                    <div>
-                    <h2 className="text-3xl font-bold mb-6 p-6 border rounded-lg shadow-md bg-gray-50">What You’ll Learn</h2>
+                    <div className='p-6 border rounded-lg shadow-md bg-gray-50'>
+                    <h2 className="text-3xl font-bold mb-6 ">What You’ll Learn</h2>
                     <ul className="space-y-4">
                         <li className="flex items-start gap-4">
                         <img src="https://img.icons8.com/ios/50/000000/math.png" className="w-6 h-6" alt="icon" />
@@ -69,8 +69,8 @@ export default function Home() {
                     </div>
 
                     {/* Section 2: Why Choose Us */}
-                    <div>
-                    <h2 className="text-3xl font-bold mb-6 p-6 border rounded-lg shadow-md bg-gray-50 ">Why Choose Us</h2>
+                    <div className='p-6 border rounded-lg shadow-md bg-gray-50'>
+                    <h2 className="text-3xl font-bold mb-6  ">Why Choose Us</h2>
                     <div className="space-y-2">
                         <div className="flex items-start gap-4">
                         <img src="https://img.icons8.com/ios-filled/50/000000/teacher.png" className="w-6 h-6" alt="icon" />
